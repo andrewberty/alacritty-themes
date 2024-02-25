@@ -1,5 +1,5 @@
 {
-  "name": "alacritty-themes",
+  "name": "@andrewberty/alacritty-themes",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/andrew-george/alacritty-themes.git"
   },
   "scripts": {},
   "keywords": [],
