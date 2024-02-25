@@ -2,7 +2,7 @@
 
 ## Demo
 
-![alacritty-themes-demo](demo.mp4)
+![alacritty-themes-demo](demo.gif)
 
 CLI Theme switcher for [Alacritty](https://github.com/alacritty/alacritty)
 
