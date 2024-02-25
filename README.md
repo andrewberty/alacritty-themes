@@ -4,7 +4,7 @@
 
 ![alacritty-themes-demo](demo.gif)
 
-CLI Theme switcher for [Alacritty](https://github.com/alacritty/alacritty)
+CLI Theme switcher for [Alacritty](https://github.com/alacritty/alacritty) terminal emulator
 
 - ❗ Currently supporting TOML configurations **ONLY**
 - 🎨 600+ Themes to choose from
@@ -12,7 +12,7 @@ CLI Theme switcher for [Alacritty](https://github.com/alacritty/alacritty)
 
 ## Install
 
-1. Clone the repo or download as .zip and copy 'colors' folder into your root alacritty config directory `eg. ~/.config/alacritty/colors`
+1. Clone the repo or download as .zip and copy `colors` folder into your root alacritty config directory `eg. ~/.config/alacritty/colors`
 2. Install package from npm
 
 Globally
@@ -41,11 +41,11 @@ alacritty-themes
 
 ## Philosophy
 
-_Why I chose to import color files instead of injecting config to `alacritty.toml`?_
+**Why** I chose to import color files instead of injecting config to `alacritty.toml`?
 
 1. That way, `alacritty.toml` file can have colors tables and keys as overrides which will give your config more flexibility
 
-You can for example add these lines to `alacritty.toml` to override background color for all colorschemes
+You can for example add these lines to `alacritty.toml` to override background color to `#000000` for all themes
 
 ```toml
   [colors.primary]
@@ -56,7 +56,7 @@ You can for example add these lines to `alacritty.toml` to override background c
 
 ## Alias
 
-You can also create an alias for `alacritty-themes` like `at` Just append this below line to your `~/.bashrc` or `~/.bash_profile`
+You can also create an alias for `alacritty-themes` like `at` Just append this below line to your `~/.bashrc` , `~/.bash_profile` or `.zshrc`
 
 ```sh
 alias at="alacritty-themes"
@@ -70,7 +70,7 @@ at
 
 ## Known Issues
 
-- `ESC` doesn't kill process and revert to last selected theme
+- Pressing `ESC` key doesn't terminate the process and revert to last selected theme
 - May have some issues in WSL regarding identifying config file path corresponding to windows absolute path to import color file
 - While typing in fuzzy search list doesn't automatically go to the beginning
 

@@ -1,7 +1,7 @@
 {
   "name": "@andrewberty/alacritty-themes",
   "version": "1.0.1",
-  "description": "",
+  "description": "A CLI theme switcher for Alacritty terminal emulator",
   "main": "index.js",
   "type": "module",
   "bin": {
@@ -12,8 +12,19 @@
     "url": "https://github.com/andrew-george/alacritty-themes.git"
   },
   "scripts": {},
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "cli",
+    "alacritty",
+    "alacritty-themes",
+    "themes",
+    "theme",
+    "theme switcher",
+    "schemes",
+    "colorschemes",
+    "andrewberty",
+    "andrew"
+  ],
+  "author": "andrewberty",
   "license": "MIT",
   "dependencies": {
     "boxen": "^7.1.1",
