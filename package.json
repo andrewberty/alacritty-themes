@@ -1,6 +1,6 @@
 {
   "name": "@andrewberty/alacritty-themes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A CLI theme switcher for Alacritty terminal emulator",
   "main": "index.js",
   "type": "module",
