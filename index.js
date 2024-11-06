@@ -35,7 +35,7 @@ function updateTheme(selectedTheme) {
   const selectedThemePathWindows = selectedThemePath.replaceAll("\\", "\\\\");
   const wslThemePath = `C:\\\\Users\\\\${os.hostname()}\\\\AppData\\\\Roaming\\\\alacritty\\\\colors\\\\${selectedTheme}`;
 
-  const newTheme = `# Start Alacritty Themes\nimport = ["${
+  const newTheme = `# Start Alacritty Themes\ngeneral.import = ["${
     process.env.APPDATA
       ? selectedThemePathWindows
       : isWsl()
